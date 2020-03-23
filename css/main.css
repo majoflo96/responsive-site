@@ -1,0 +1,198 @@
+/* Stylesheet made by Maria Jose Flores :) */
+
+/* HTML ELEMENTS */
+body {
+  margin: 0;
+  padding: 0;
+  color: #222;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: hotpink;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 60px;
+  text-shadow: 0px 5px 7px rgba(0,0,0,0.5);
+}
+
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+
+/* HEADER */
+.header-image {
+  background-color: #222;
+  color: #fff;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* NAVIGATION */
+.navigation {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+}
+
+.button {
+  border-right: 1px solid #ddd;
+  color: #222;
+  padding: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.page-button {
+  background-color: #ddd;
+  color: #222;
+}
+
+.active {
+  background-color: #eee;
+}
+
+.button:first-child {
+  border-left: 1px solid #ddd;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+
+/* MAIN CONTENT */
+.wrapper {
+  display: flex;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px 40px;
+  height: 100%;
+  flex-direction: column;
+}
+
+.info-1,
+.info-2,
+.info-3 {
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 26px -2px rgba(0,0,0,0.2);
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.info-1 {
+  margin-right: 20px;
+}
+.info-3 {
+  margin-left: 20px;
+}
+
+
+
+/* ABOUT ME PAGE */
+.about-me {
+  margin-right: 40px;
+}
+
+.profile-photo {
+  flex: none;
+  height: 250px;
+  width: 250px;
+  background-image: url('../images/profile-image.jpg');
+  background-size: cover;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 26px -2px rgba(0,0,0,0.31);
+}
+
+.columns {
+  display: flex;
+}
+
+
+/* WILDLIFE PAGE */
+.title {
+  display: flex;
+  justify-content: center;
+}
+.instagram {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.safari-image {
+  border: 3px solid #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  flex:none;
+  box-shadow: 0px 0px 26px -2px rgba(0,0,0,0.31);
+}
+
+.image-1 { background-image: url("../images/gallery/4B96B649-57E8-49C1-8315-8BA0C5EFE385.jpg"); }
+.image-2 { background-image: url("../images/gallery/8CD686BC-348B-4937-A89B-6BCB18764197.jpg"); }
+.image-3 { background-image: url("../images/gallery/806E2739-BCE2-4970-9DCC-5CE17217C9D0.jpg"); }
+.image-4 { background-image: url("../images/gallery/13127153-4E0A-49F0-9D37-707162BC9BC7.jpg"); }
+.image-5 { background-image: url("../images/gallery/BDAFDF6D-8EEF-4DC6-B53E-478903044468.jpg"); }
+.image-6 { background-image: url("../images/gallery/D6FF52B4-72E1-44AA-932F-8A7D3F87A758.jpg"); }
+.image-7 { background-image: url("../images/gallery/f7c44c20-5da9-4a62-b82e-bf908cccea7e.jpg"); }
+.image-8 { background-image: url("../images/gallery/IMG_2839.jpg"); }
+.image-9 { background-image: url("../images/gallery/IMG_5366.jpg"); }
+
+/* Safari */
+.safari {
+  margin-left: 40px;
+}
+
+.safari-photo {
+  flex: none;
+  height: 250px;
+  width: 250px;
+  background-image: url('../images/safari.jpg');
+  background-size: cover;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 26px -2px rgba(0,0,0,0.31);
+}
+
+
+/* FOOTER */
+footer {
+  max-width: 1100px;
+  margin: 100px auto 0;
+  padding: 100px 0;
+  font-size: 12px;
+  text-align: center;
+  color: #888;
+}

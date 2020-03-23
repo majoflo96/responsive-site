@@ -1,0 +1,67 @@
+/* Stylesheet made by Maria Jose Flores */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 30px;
+    text-shadow: 0px 3px 5px rgba(0,0,0,0.5);
+  }
+
+/* HEADER */
+  .header-image {
+    height: 200px;
+  }
+
+/* NAVIGATION */
+  .navigation {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .button {
+    border: 1px solid #ddd;
+    width: 100%;
+    padding: 10px;
+  }
+
+/* MAIN CONTENT */
+  .wrapper {
+    flex-direction: column;
+    margin: 20px 0;
+    padding: 20px;
+  }
+
+  .columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column {}
+
+  .about-me,
+  .safari {
+    margin: 0;
+  }
+
+  .width-change {
+    width: 100%;
+  }
+
+  .info-1,
+  .info-2,
+  .info-3 {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
